@@ -1,3 +1,9 @@
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
 #frame {
 	position: relative;
 	width: 800px;
@@ -13,12 +19,13 @@
 	width: 800px;
 	height: 600px;
 	float: left;
+	background: #ccc;
+	z-index: 4;
 }
 
 #prev, #next {
 	position: absolute;
 	top: 50%;
-	z-index: 2;
 }
 
 #prev {
